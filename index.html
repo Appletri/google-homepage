@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <style>
     
-    
-    
-   
-  
     html{
         font-family: Arial, sans-serif;
         font-size: 13px;   
@@ -40,9 +36,7 @@
 
     #search-bar-block{
         display:block;
-        /* background-color: tomato; */
-
-        
+        /* background-color: tomato; */   
     }
     
     #search-bar-background{
@@ -141,11 +135,19 @@
     #search:hover{
         border: 1px solid rgba(87, 87, 87, .3);
         color: rgba(66, 66, 66, 1);
+        cursor: pointer;
     }
     #lucky:hover{
         border: 1px solid rgba(87, 87, 87, .3);
         color: rgba(66, 66, 66, 1);
+        cursor: pointer;
     }
+
+
+
+
+/* HEADER-------------------------------------------------------------------------------------- */
+
 
     #navbar{
         width:100%;
@@ -170,10 +172,7 @@
         right: 18px;
          
     }
-    .footer-left {
-        padding: 5px;
-    }
-
+   
   
     #about{
         position:relative;
@@ -224,8 +223,13 @@
         font-size: 12.5px;
         font-family:Arial, sans-serif;
     }
+
+
+
+ /* FOOTER------------------------------------------------------------------------ */
+    
  
-    footer {
+        footer {
         
         font-size:14px;
         display:inline-block;
@@ -249,10 +253,11 @@
     }
     #footer-right {
         padding: 5px 25px;
-        position: relative;
+        position: absolute;
         text-align: right;
-        bottom: 26px;
-        right: 25px;
+        width:250px;
+        bottom: 10px;
+        right: 30px;
         
     }
     #advertising{
@@ -291,7 +296,8 @@
         color:rgb(87, 87, 87);
     }
     
-        
+    
+     
 </style>
 <html>
     
@@ -307,16 +313,11 @@
                 <a id="apps" href="">
                     <img src="apps_black_24dp.svg">
                 </a>
-                <button id="sign-in" href"">
+                <button id="sign-in" href="">
                     Sign in
                 </button>
             </nav>
-        </div>
-
-            
-        
-       
-        
+        </div>    
     </header>
     
     <body> 
@@ -346,14 +347,14 @@
 
     <footer>
         <div id="footer-left">
-            <a class="footer-left" id="advertising" href="">Advertising</a>
-            <a class="footer-left" id="business" href="">Business</a>
-            <a class="footer-left" id="how-search-works" href="">How Search works</a>
+            <a id="advertising" href="">Advertising</a>
+            <a id="business" href="">Business</a>
+            <a id="how-search-works" href="">How Search works</a>
         </div>
         <div id="footer-right">
-            <a class="footer-right" id="privacy" href="">Privacy</a>
-            <a class="footer-right" id="terms" href="">Terms</a>
-            <a class="footer-right" id="settings" href="">Settings</a>    
+            <a id="privacy" href="">Privacy</a>
+            <a id="terms" href="">Terms</a>
+            <a id="settings" href="">Settings</a>    
         </div>
         
     </footer>
