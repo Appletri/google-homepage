@@ -1,2 +1,2 @@
-This is my google homepage project where 
-I try and recreate the google homepage.
+This is my google homepage!
+<a href="https://Appletri.github.io/google-homepage/" rel="nofollow">Live Demo</a>
